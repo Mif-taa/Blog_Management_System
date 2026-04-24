@@ -76,8 +76,8 @@ Blog Management System/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOURNAME/YOURREPO.git
-cd YOURREPO
+git clone https://github.com/Mif-taa/Blog_Management_System.git
+cd Blog_Management_System
 ```
 
 **2. Install dependencies**
@@ -128,7 +128,7 @@ http://localhost:3000
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/Mif-taa)
+- GitHub: [@Mif-taa](https://github.com/Mif-taa)
 
 ---
 
