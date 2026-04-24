@@ -4,6 +4,8 @@ A full-stack **Blog Management System** built with Node.js and Express.js, featu
 
 🔗 **Live Demo:** [https://blog-management-system-1-vdh6.onrender.com]
 
+
+![Blog Dashboard](screenshots/dashboard.png)
 ---
 
 ## ✨ Features
