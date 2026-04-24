@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Blog Management System</h1>
+            <div id="auth-section">
+                <!-- Auth buttons will be inserted here -->
+            </div>
+        </header>
+
+        <main>
+            <!-- Login/Register Forms -->
+            <div id="auth-forms" class="hidden">
+                <div class="form-container">
+                    <div class="form-tabs">
+                        <button id="login-tab" class="tab active">Login</button>
+                        <button id="register-tab" class="tab">Register</button>
+                    </div>
+
+                    <form id="login-form" class="auth-form">
+                        <h2>Login</h2>
+                        <div class="form-group">
+                            <label for="login-username">Username:</label>
+                            <input type="text" id="login-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password">Password:</label>
+                            <input type="password" id="login-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        <div id="login-message" class="message"></div>
+                    </form>
+
+                    <form id="register-form" class="auth-form hidden">
+                        <h2>Register</h2>
+                        <div class="form-group">
+                            <label for="register-username">Username:</label>
+                            <input type="text" id="register-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="register-password">Password:</label>
+                            <input type="password" id="register-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                        <div id="register-message" class="message"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Posts Section -->
+            <div id="posts-section">
+                <div class="posts-header">
+                    <h2>All Posts</h2>
+                    <button id="create-post-btn" class="btn btn-success hidden">Create New Post</button>
+                </div>
+
+                <!-- Create/Edit Post Form -->
+                <div id="post-form" class="hidden">
+                    <form id="create-post-form">
+                        <h3 id="form-title">Create New Post</h3>
+                        <div class="form-group">
+                            <label for="post-title">Title:</label>
+                            <input type="text" id="post-title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="post-content">Content:</label>
+                            <textarea id="post-content" rows="6" required></textarea>
+                        </div>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Save Post</button>
+                            <button type="button" id="cancel-post" class="btn btn-secondary">Cancel</button>
+                        </div>
+                        <div id="post-message" class="message"></div>
+                    </form>
+                </div>
+
+                <!-- Posts List -->
+                <div id="posts-list" class="posts-grid">
+                    <!-- Posts will be loaded here -->
+                </div>
+
+                <div id="loading" class="loading">Loading posts...</div>
+                <div id="no-posts" class="no-posts hidden">No posts found. Be the first to create one!</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Post Detail Modal -->
+    <div id="post-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="post-detail">
+                <!-- Post content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

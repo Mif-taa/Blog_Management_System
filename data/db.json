@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "fa0cc584-7c36-4920-8ab4-a2133d243c6e",
+      "username": "Rishta",
+      "password": "$2a$12$RkoJhjbsU38QxQA5HwIWT.VpCcyoP3kHcluWSGJCKMqG7q7JSks.S",
+      "createdAt": "2026-04-24T04:10:41.932Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "14757b8a-752b-4138-beac-a6513ed820c2",
+      "title": "My First Blog",
+      "content": "Hi ! This is day 1",
+      "authorId": "fa0cc584-7c36-4920-8ab4-a2133d243c6e",
+      "authorUsername": "Rishta",
+      "createdAt": "2026-04-24T04:11:03.384Z",
+      "updatedAt": "2026-04-24T04:11:03.384Z"
+    }
+  ]
+}
