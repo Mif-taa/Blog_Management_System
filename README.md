@@ -2,7 +2,7 @@
 
 A full-stack **Blog Management System** built with Node.js and Express.js, featuring JWT authentication and PostgreSQL persistence. Deployed live on Render.
 
-🔗 **Live Demo:** [your-app-name.onrender.com][https://blog-management-system-1-vdh6.onrender.com]
+🔗 **Live Demo:** [https://blog-management-system-1-vdh6.onrender.com]
 
 ---
 
